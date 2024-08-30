@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+div#tv-radio{
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png");
+}
+
+audio#musica{
+    display: block;
+    position: relative;
+    left: 578px;
+    top: 510px;
+    width: 300px;
+
+}
+
+#videoyt {
+    display: block;
+    position: relative;
+    top: 20%;
+    padding: 0.5%;
+    padding-left: 4%;
+    padding-right: 2%;
+    right: 0%;
+    left: 0%;
+    }
+
+video#filme{
+    display: block;
+    position: relative;
+    left: 4%;
+    top: -4%;
+    width: 72%;
+}
+
+footer#rodape p{
+    text-align: center;
+    position: relative;
+    top: 0px;
+}

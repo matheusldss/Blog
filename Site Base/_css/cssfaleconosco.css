@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+header#cabecalho{
+    border-bottom: 1px #606060 solid;
+    height: 200px;
+    background: url("../_imagens/Logo_Game_of_Thrones_P.png") no-repeat -2px -12px;
+}
+
+nav#menu{
+display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    top: 0px;
+    left: 58%;
+    margin: 0; padding: 0; list-style: none; text-align: center;
+}
+nav#menu li {
+    display: inline;
+    padding-left: 10px; 
+    padding-right: 5px; 
+    padding-top: 5px;
+    margin: 0%;
+    transition: background-color 1s;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+
+}
+
+footer a{
+    text-decoration: none;
+}
+
+nav#menu li:hover{
+    background-color: silver;
+    display: inline-block;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color:white;
+}
+fieldset#usuario{
+    background: url("../_imagens/icone-contato.png" );
+}
+legend.idusuario{
+   padding: 15px;
+}
+legend.enderecousuario{
+    padding: 15px;
+ }
+legend.msgusuario{
+    padding: 15px;
+ }
